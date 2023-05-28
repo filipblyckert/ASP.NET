@@ -6,6 +6,7 @@ using WebApp.Models.Identity;
 
 namespace WebApp.Models.Contexts;
 
+//insett misstaget, hinner inte åtgärda
 public class IdentityContext : IdentityDbContext<AppUser>
 {
     public IdentityContext(DbContextOptions<IdentityContext> options) : base(options)

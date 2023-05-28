@@ -3,6 +3,7 @@ using WebApp.Models.Entities;
 
 namespace WebApp.Models.Contexts;
 
+//insett misstaget, hinner inte åtgärda
 public class DataContext : DbContext
 {
     public DataContext(DbContextOptions options) : base(options)
